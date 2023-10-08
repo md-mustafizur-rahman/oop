@@ -18,7 +18,10 @@ public class Bkash extends Bank {
             loginBank(this.bankPin);
         }
         else {
-            loginBank(this.bankPin);
+            System.out.println("login");
+            System.out.println("Enter pin for login:");
+            int loginPin=input.nextInt();
+            loginBank(loginPin);
         }
     }
 
