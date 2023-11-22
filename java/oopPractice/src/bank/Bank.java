@@ -4,6 +4,7 @@ import interfaceArea.bankInterface;
 
 import java.util.Scanner;
 
+
 public class Bank implements bankInterface {
 
     Scanner input = new Scanner(System.in);
